@@ -12,11 +12,11 @@ function App() {
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Router>
+        <Router basename='/react_table'>
           <Routes>
-            <Route path="/react_table" element={<Instructions />} />
-            <Route path="/react_table/users" element={<UsersTable />} />
-            <Route path="/react_table/comments" element={<CommentsTable />} />
+            <Route path="/" element={<Instructions />} />
+            <Route path="/users" element={<UsersTable />} />
+            <Route path="/comments" element={<CommentsTable />} />
             {RoutesArray()}
           </Routes>
         </Router>
