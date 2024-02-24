@@ -1,0 +1,21 @@
+
+.custom-row {
+  /* Add any custom styles for each row */
+
+  /* Add any other styles you want to apply to all rows */
+  font-weight: 400; /* Font weight (no quotes needed) */
+  font-size: 14px; /* Font size (you need to specify unit like px) */
+  color: #2F3133;
+  font-family: "Roboto"; 
+
+}
+
+
+
+.custom-data-grid .MuiDataGrid-columnHeaders {
+  background-color: #CDE7FF; /* Replace #yourColor with the desired color */
+  font-family: "Roboto";
+  font-weight: 600; /* Font weight */
+  font-size: 14px; /* Font size */
+  color: #2E3237; /* Text color */
+}
