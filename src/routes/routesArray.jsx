@@ -2,14 +2,15 @@ import React from 'react'
 
 import { Route } from 'react-router-dom';
 import CommentsTable from '../TablesData/CommentsTable'
-import UsersTable from '../TablesData/CommentsTable'
+
+import UsersTable from '../TablesData/UsersTable';
 const routes = [
   {
     path: '/comments',
     component: CommentsTable
   },
   {
-    path: '/',
+    path: '/react_table',
     component: UsersTable
   }
 ];
