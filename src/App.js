@@ -14,9 +14,9 @@ function App() {
   <QueryClientProvider client={queryClient}>
   <Router>
       <Routes>
-        <Route path="/react_table/users" element={<UsersTable />} />
-        <Route path="/react_table/comments" element={<CommentsTable />} />
-        <Route path="/react_table" element={<Instructions />} />
+        <Route path="users" element={<UsersTable />} />
+        <Route path="comments" element={<CommentsTable />} />
+        <Route path="/" element={<Instructions />} />
         {RoutesArray()}
       </Routes>
     </Router>
