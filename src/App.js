@@ -15,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/react_table/users" element={<CommentsTable />} />
         <Route path="/react_table/comments" element={<UsersTable />} />
+        <Redirect from="/users" to="/react_table/users" />
+        <Redirect from="/" to="/react_table/users" />
         {RoutesArray()}
       </Routes>
     </Router>
