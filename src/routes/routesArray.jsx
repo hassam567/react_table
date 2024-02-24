@@ -7,11 +7,11 @@ import UsersTable from '../TablesData/UsersTable';
 import Instructions from '../Instructions';
 const routes = [
   {
-    path: '/react_table/comments',
+    path: '/comments',
     component: CommentsTable
   },
   {
-    path: '/react_table/users',
+    path: '/users',
     component: UsersTable
   }
   ,
