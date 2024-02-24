@@ -12,7 +12,7 @@ function App() {
   return (
     <>
   <QueryClientProvider client={queryClient}>
-   <BrowserRouter  basename='/'>
+   <BrowserRouter  basename='/react_table'>
       <Routes>
       <Route path="/react_table" element={<Instructions />} />
         <Route path="/react_table/users" element={<UsersTable />} />
