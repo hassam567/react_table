@@ -17,7 +17,7 @@ const routes = [
   ,
 
   {
-    path: '/',
+    path: '/react_table',
     component: Instructions
   }
 ];

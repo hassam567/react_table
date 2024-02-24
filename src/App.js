@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="users" element={<UsersTable />} />
         <Route path="comments" element={<CommentsTable />} />
-        <Route path="/" element={<Instructions />} />
+        <Route path="/react_table" element={<Instructions />} />
         {RoutesArray()}
       </Routes>
     </Router>
